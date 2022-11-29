@@ -1,5 +1,5 @@
-import Modal from './lib/components/Modal'
-import modalcss from './lib/components/modal.css'
+import Modal from './components/Modal'
+import modalcss from './components/modal.css'
 export { Modal, modalcss }
 
 // import React from 'react'
