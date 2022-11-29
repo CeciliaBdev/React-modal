@@ -1,0 +1,38 @@
+.modalBackground {
+  /* border: 1px solid red; */
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modalContainer {
+  /* border: 1px solid blue; */
+  height: 20vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.closeBtn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+.closeBtn:hover {
+  cursor: pointer;
+  color: red;
+}
+.contentModal {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
